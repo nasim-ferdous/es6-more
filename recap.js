@@ -30,5 +30,5 @@ const newFriends = [...friends, "dabul", "ebul"];
 
 // destructuring
 const { marks: totalMarks, age = 0 } = student;
-// console.log(totalMarks, age)
+console.log(totalMarks, age);
 const [firstFriend] = friends;

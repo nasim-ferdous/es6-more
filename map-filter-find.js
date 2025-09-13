@@ -10,4 +10,7 @@ const marks = students.map((student) => student.mark);
 const goodStudents = students.filter((student) => student.mark > 80);
 const goodStudent = students.find((student) => student.mark > 80);
 
+console.log(names);
+console.log(marks);
+console.log(goodStudents);
 console.log(goodStudent);

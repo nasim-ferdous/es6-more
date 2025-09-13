@@ -23,12 +23,10 @@ const square = numbers.map((num) => num * num);
 const persons = ["Jamil", "Kamil", "Nabil", "Himel"];
 const nameLength = persons.map((name) => name.length);
 const firstLetter = persons.map((name) => name[0].toLowerCase());
+console.log(nameLength);
+console.log(firstLetter);
 
 const result = numbers.map((num, index) => {
   console.log(num * index);
   return index * num; //result return kora lagbe
 });
-
-const nums = [1, 2, 3, 4, 5];
-let output = nums.filter((n) => n % 2);
-console.log(output);
